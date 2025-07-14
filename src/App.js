@@ -7,7 +7,7 @@ function App() {
   const BaseURL = localHost
     ? "http://localhost:5000"
     : "http://192.168.1.103:5000";
-  return <div className="App"></div>;
+  return <div className="app"></div>;
 }
 
 export default App;
