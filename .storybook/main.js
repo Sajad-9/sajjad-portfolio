@@ -1,19 +1,21 @@
-// .storybook/main.js
 
-module.exports = {
-  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
-  framework: {
-    name: "@storybook/react-webpack5",
-    options: {},
+
+/** @type { import('@storybook/react-webpack5').StorybookConfig } */
+const config = {
+  "stories": [
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+  ],
+  "addons": [
+    "@storybook/preset-create-react-app",
+    "@storybook/addon-docs"
+  ],
+  "framework": {
+    "name": "@storybook/react-webpack5",
+    "options": {}
   },
-  webpackFinal: async (config) => {
-    // Add rule for handling CSS with Tailwind and PostCSS
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ["style-loader", "css-loader", "postcss-loader"],
-      include: /src/,
-    });
-    return config;
-  },
+  "staticDirs": [
+    "..\\public"
+  ]
 };
+export default config;
