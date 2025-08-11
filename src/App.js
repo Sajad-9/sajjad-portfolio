@@ -3,6 +3,7 @@ import "./styles/index.css";
 import Header1 from "./components/Header1";
 import Sample from "./components/Sample";
 import Footer1 from "./components/Footer1";
+import Particles from "./components/Particles";
 
 function App() {
   const localHost =
@@ -13,6 +14,7 @@ function App() {
     : "http://192.168.1.103:5000";
   return (
     <div className="app">
+      <Particles id="particles" />
       <Header1 />
 
       <div className="flex flex-col xl:flex-row">
