@@ -1,5 +1,8 @@
 import "./styles/App.css";
 import "./styles/index.css";
+import Header1 from "./components/Header1";
+import Sample from "./components/Sample";
+import Footer1 from "./components/Footer1";
 
 function App() {
   const localHost =
@@ -8,7 +11,17 @@ function App() {
   const BaseURL = localHost
     ? "http://localhost:5000"
     : "http://192.168.1.103:5000";
-  return <div className="app"></div>;
+  return (
+    <div className="app">
+      <Header1 />
+
+      <div className="flex flex-col xl:flex-row">
+        <Sample />
+        <Sample />
+      </div>
+      <Footer1 />
+    </div>
+  );
 }
 
 export default App;

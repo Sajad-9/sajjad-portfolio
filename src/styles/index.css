@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap");
 body {
+  background-color: rgb(103, 130, 49);
   margin: 0;
   font-family: "Vazirmatn", sans-serif;
   direction: rtl;
