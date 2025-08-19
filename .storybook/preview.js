@@ -1,5 +1,6 @@
 /** @type { import('@storybook/react-webpack5').Preview } */
 import "../src/styles/index.css"; // ✅ Make sure this path matches your Tailwind CSS file
+import { ImageZoomProvider } from "../src/context/ImageZoomContext";
 
 const preview = {
   parameters: {
@@ -10,6 +11,13 @@ const preview = {
       },
     },
   },
+  decorators: [
+    (Story) => (
+      <ImageZoomProvider>
+        <Story />
+      </ImageZoomProvider>
+    ),
+  ],
 };
 
 export default preview;
