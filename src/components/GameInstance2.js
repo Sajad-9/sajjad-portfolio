@@ -18,7 +18,7 @@ const GameInstance2 = ({
   title = "Jumper Bird",
   description = "Tap to flap and dodge the pipes in this fast-paced flying challenge. How far can you soar before gravity wins?",
   images = jumperBirdImages,
-  link = "https://sajad-9.github.io/SpaceShapeExport/",
+  link = "https://sajad-9.github.io/JumperBirdExport/",
 }) => {
   return (
     <div>
