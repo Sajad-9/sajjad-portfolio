@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/sajjad-portfolio/static/css/main.fbdfb700.css",
-    "main.js": "/sajjad-portfolio/static/js/main.ae3f8841.js",
+    "main.css": "/sajjad-portfolio/static/css/main.51cf2eb3.css",
+    "main.js": "/sajjad-portfolio/static/js/main.13be9bc7.js",
     "static/media/survivor_screenshot4.png": "/sajjad-portfolio/static/media/survivor_screenshot4.97a629df5724e18c1e31.png",
     "static/media/survivor_screenshot1.png": "/sajjad-portfolio/static/media/survivor_screenshot1.fc8b61fce4cca0b8e2ab.png",
     "static/media/survivor_screenshot3.png": "/sajjad-portfolio/static/media/survivor_screenshot3.1a7afd28f99e6b146648.png",
     "static/media/survivor_screenshot2.png": "/sajjad-portfolio/static/media/survivor_screenshot2.1c0a60d54dbc63e0b007.png",
     "static/media/english_background.png": "/sajjad-portfolio/static/media/english_background.017d3c25aa23489a8ec5.png",
     "static/media/english_screenshot2.png": "/sajjad-portfolio/static/media/english_screenshot2.eb1ae8a6efa15757aabf.png",
+    "static/media/SEYED SAJAD HOSEINI.svg": "/sajjad-portfolio/static/media/SEYED SAJAD HOSEINI.d8cacb569968c5c8979c8083377a7ecb.svg",
     "static/media/jumperbird_screenshot1.png": "/sajjad-portfolio/static/media/jumperbird_screenshot1.21eaaaba8ac13d115f79.png",
     "static/media/english_screenshot1.png": "/sajjad-portfolio/static/media/english_screenshot1.a72fe0f71ec9ac1f9d84.png",
     "static/media/jumperbird_background.png": "/sajjad-portfolio/static/media/jumperbird_background.fb64d8ebe64a6051669b.png",
     "static/media/survivor_background.png": "/sajjad-portfolio/static/media/survivor_background.b6239a262bb01d218a96.png",
     "static/media/jumperbird_screenshot2.png": "/sajjad-portfolio/static/media/jumperbird_screenshot2.2047195d14287455cbed.png",
     "static/media/jumperbird_screenshot4.png": "/sajjad-portfolio/static/media/jumperbird_screenshot4.3485739767f4d0efa140.png",
+    "static/media/Contact Info.svg": "/sajjad-portfolio/static/media/Contact Info.692155a220fa3f675f3402e634efbde5.svg",
     "static/media/english_screenshot4.png": "/sajjad-portfolio/static/media/english_screenshot4.2f571d5cdc00d3778dcc.png",
-    "static/media/SEYEDSAJADHOSEINI.svg": "/sajjad-portfolio/static/media/SEYEDSAJADHOSEINI.72dbd3dba40a244389608d6ad124bcd6.svg",
     "static/media/sajjad.jpg": "/sajjad-portfolio/static/media/sajjad.fdd6851e65fbecdf11bc.jpg",
     "static/media/english_screenshot3.png": "/sajjad-portfolio/static/media/english_screenshot3.5778f90013413d5b32a5.png",
+    "static/media/About me.svg": "/sajjad-portfolio/static/media/About me.74fc4677419982ba368889182ef9fcad.svg",
+    "static/media/Let's play.svg": "/sajjad-portfolio/static/media/Let's play.07390fee2cb3269a9dd4a76f6c394f24.svg",
     "static/media/mathspace_screenshot1.jpg": "/sajjad-portfolio/static/media/mathspace_screenshot1.429be028f8353b9e3621.jpg",
     "static/media/mathspace_screenshot3.jpg": "/sajjad-portfolio/static/media/mathspace_screenshot3.d540fadbf49501572fcf.jpg",
     "static/media/mathspace_background.jpg": "/sajjad-portfolio/static/media/mathspace_background.5ce0e46bd0b78a878795.jpg",
@@ -36,11 +39,11 @@
     "static/media/emailicon.svg": "/sajjad-portfolio/static/media/emailicon.db3b1c9c0cb9e8a8c6185df3dc000a67.svg",
     "static/media/xicon.svg": "/sajjad-portfolio/static/media/xicon.7a4023157cb040cf00d540f342da2dd6.svg",
     "index.html": "/sajjad-portfolio/index.html",
-    "main.fbdfb700.css.map": "/sajjad-portfolio/static/css/main.fbdfb700.css.map",
-    "main.ae3f8841.js.map": "/sajjad-portfolio/static/js/main.ae3f8841.js.map"
+    "main.51cf2eb3.css.map": "/sajjad-portfolio/static/css/main.51cf2eb3.css.map",
+    "main.13be9bc7.js.map": "/sajjad-portfolio/static/js/main.13be9bc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbdfb700.css",
-    "static/js/main.ae3f8841.js"
+    "static/css/main.51cf2eb3.css",
+    "static/js/main.13be9bc7.js"
   ]
 }
