@@ -1,4 +1,5 @@
 {
+  "homepage": "https://MohammadRezaAlizadeh13845.github.io/sajjad-portfolio",
   "name": "react-starter-template",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +18,6 @@
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
-    "react-scroll-horizontal": "^1.6.6",
     "react-slick": "^0.30.3",
     "react-tsparticles": "^2.12.2",
     "serve": "^14.2.4",
@@ -27,6 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,6 +62,7 @@
     "@storybook/react-webpack5": "^9.1.1",
     "autoprefixer": "^10.4.21",
     "eslint-plugin-storybook": "^9.1.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "prop-types": "^15.8.1",
     "storybook": "^9.1.1",
