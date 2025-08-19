@@ -1,26 +1,47 @@
-# React Starter Template (with Persian Support)
+# 🎨 Personal Portfolio SPA
 
-A clean and modern React starter template with built-in support for Persian (Farsi) language, RTL layout, and essential development tools.
-
----
-
-## 📌 Features
-
-- React (via Create React App)
-- RTL (Right-to-Left) language support
-- Persian font (Vazirmatn) integrated
-- React Router DOM
-- React Icons
-- json-server for mock API
-- serve for static builds
+A sleek, responsive single-page portfolio built for my friend, showcasing their skills, projects, and contact information. Designed with performance, accessibility, and modern UI principles in mind.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Features
 
-### 1. Clone the repository
+- ⚡️ Fast-loading SPA built with React
+- 📱 Fully responsive across devices
+- 🎨 Custom animations and transitions
+- 🧭 Smooth scroll navigation
+- 🖼️ Project gallery with carousel view
+- 📬 Contact section with
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Routing:** React Router (if applicable)
+- **Animations:** Framer Motion / AOS
+- **Deployment:** Vercel / Netlify / GitHub Pages
+
+---
+
+## 📁 Folder Structure
+src/
+  ├── assets/
+    # Images, icons 
+  ├── components/
+    # Reusable UI components 
+  ├── context/          
+    # Global state 
+  ├── App.js 
+  ├── index.js
+
+
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/react-starter-template.git
-cd react-starter-template
-```
+git clone https://github.com/yourusername/friend-portfolio
+cd friend-portfolio
+npm install
+npm run dev
