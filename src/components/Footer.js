@@ -1,4 +1,4 @@
-import Title from "../assets/images/SEYEDSAJADHOSEINI.svg";
+import Title from "../assets/images/SEYED SAJAD HOSEINI.svg";
 import EmailIcon from "../assets/images/emailicon.svg";
 import GitHubIcon from "../assets/images/githubicon.svg";
 import LinkedInIcon from "../assets/images/linkedinicon.svg";

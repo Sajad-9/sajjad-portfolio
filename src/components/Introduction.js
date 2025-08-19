@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import title from "../assets/images/SEYEDSAJADHOSEINI.svg";
+import title2 from "../assets/images/SEYED SAJAD HOSEINI.svg";
 
 const Introduction = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -45,7 +45,7 @@ const Introduction = () => {
       style={{ transformOrigin: "center" }}
     >
       <img
-        src={title}
+        src={title2}
         alt="title"
         className="h-[150px] w-[150px] midsm:mt-[70px] midsm:h-[200px] midsm:w-[200px] upsm:mt-[130px] upsm:h-[250px] upsm:w-[250px] md:mt-[80px] md:h-[300px] md:w-[300px] md:mr-[70px] upmd:mt-[50px] upmd:h-[350px] upmd:w-[350px] lg:mt-[100px] lg:h-[400px] lg:w-[400px]"
       />
