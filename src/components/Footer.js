@@ -3,12 +3,13 @@ import EmailIcon from "../assets/images/emailicon.svg";
 import GitHubIcon from "../assets/images/githubicon.svg";
 import LinkedInIcon from "../assets/images/linkedinicon.svg";
 import XICon from "../assets/images/xicon.svg";
+import ResumeIcon from "../assets/images/resumeicon.svg";
 import { motion } from "framer-motion";
 const Footer = () => {
   return (
-    <footer className=" flex flex-row bg-[linear-gradient(to_bottom_left,black_20%,rgb(0,102,255)_100%)] w-full h-[400px] mt-[100px] justify-center items-center">
-      <div className="flex flex-row items-start w-[80%] lg:w-[60%]  ">
-        <div className="  w-[60%] h-[300px] md:h-[350px]">
+    <footer className=" flex flex-col bg-[linear-gradient(to_bottom_left,black_20%,rgb(0,102,255)_100%)] w-full h-[500px] mt-[100px] justify-center items-center md:h-[550px]">
+      <div className="flex flex-row items-start w-[80%] lg:w-[60%] ">
+        <div className="  w-[60%] h-[350px] md:h-[350px] md:h-[420px]">
           <div className="text-[25px] md:text-[35px]">Contact me:</div>
           <div className="flex flex-col items-start my-5 w-[80%] lg:w-[60%] ">
             <div id="github">
@@ -93,7 +94,7 @@ const Footer = () => {
                 style={{ transformOrigin: "center" }}
               >
                 <div
-                  className="flex flex-row justify-center items-center cursor-pointer ml-10 md:ml-[60px]"
+                  className="flex flex-row justify-center items-center cursor-pointer ml-10 md:ml-[60px] mb-5"
                   onClick={() =>
                     window.open("https://x.com/SajadHo43678539", "_blank")
                   }
@@ -109,6 +110,32 @@ const Footer = () => {
                 </div>
               </motion.div>
             </div>
+            <div id="resume">
+              <motion.div
+                whileHover={{ scale: 1.2 }}
+                whileTap={{ scale: 0.8 }}
+                style={{ transformOrigin: "center" }}
+              >
+                <div
+                  className="flex flex-row justify-center items-center cursor-pointer ml-10 md:ml-[60px]"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1yvWLCZiJLUWfBcm1UnpEkZacTiHtYmc_/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
+                  <button className="mr-[15px]">
+                    <img
+                      src={ResumeIcon}
+                      alt="x"
+                      className="min-h-[40px] min-w-[40px] md:min-h-[50px] md:min-w-[50px]"
+                    />
+                  </button>
+                  <div className="text-[20px] md:text-[25px] ">Resume</div>
+                </div>
+              </motion.div>
+            </div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center  w-1/2 h-[300px] md:h-[350px]">
@@ -118,6 +145,22 @@ const Footer = () => {
             className="h-[130px] w-[130px] upsm:h-[180px] upsm:w-[180px] md:h-[240px] md:w-[240px] ml-[60px]"
           />
         </div>
+      </div>
+      <div className="flex flex-col justify-center items-center text-[15px] md:flex-row md:text-[20px] mt-10 text-blue-200">
+        <p>Website developed by:</p>
+        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+          <button
+            className="md:ml-8"
+            onClick={() =>
+              window.open(
+                "https://github.com/MohammadRezaAlizadeh13845",
+                "_blank"
+              )
+            }
+          >
+            @MohammadRezaAlizadeh13845
+          </button>
+        </motion.div>
       </div>
     </footer>
   );
