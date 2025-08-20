@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sajjad-portfolio/static/css/main.51cf2eb3.css",
-    "main.js": "/sajjad-portfolio/static/js/main.13be9bc7.js",
+    "main.css": "/sajjad-portfolio/static/css/main.310744c3.css",
+    "main.js": "/sajjad-portfolio/static/js/main.7ef36b0d.js",
     "static/media/survivor_screenshot4.png": "/sajjad-portfolio/static/media/survivor_screenshot4.97a629df5724e18c1e31.png",
     "static/media/survivor_screenshot1.png": "/sajjad-portfolio/static/media/survivor_screenshot1.fc8b61fce4cca0b8e2ab.png",
     "static/media/survivor_screenshot3.png": "/sajjad-portfolio/static/media/survivor_screenshot3.1a7afd28f99e6b146648.png",
@@ -33,17 +33,18 @@
     "static/media/mathspace_screenshot4.jpg": "/sajjad-portfolio/static/media/mathspace_screenshot4.6aa99b94d5f980999f3c.jpg",
     "static/media/spaceship_screenshot4.png": "/sajjad-portfolio/static/media/spaceship_screenshot4.df8ddbd43445c46ef29f.png",
     "static/media/spaceship_screenshot2.png": "/sajjad-portfolio/static/media/spaceship_screenshot2.6bb87fb4e1ac376d73b0.png",
+    "static/media/resumeicon.svg": "/sajjad-portfolio/static/media/resumeicon.ae5bfa03384089b01bc4d750a38a5557.svg",
     "static/media/githubicon.svg": "/sajjad-portfolio/static/media/githubicon.b17d447cf480856923000d8c9324d45e.svg",
     "static/media/linkedinicon.svg": "/sajjad-portfolio/static/media/linkedinicon.67c51f79a90775c3d96bf44c39208847.svg",
     "static/media/upbuttonicon.svg": "/sajjad-portfolio/static/media/upbuttonicon.444631dbd203e3a347fd9a6228ffe503.svg",
     "static/media/emailicon.svg": "/sajjad-portfolio/static/media/emailicon.db3b1c9c0cb9e8a8c6185df3dc000a67.svg",
     "static/media/xicon.svg": "/sajjad-portfolio/static/media/xicon.7a4023157cb040cf00d540f342da2dd6.svg",
     "index.html": "/sajjad-portfolio/index.html",
-    "main.51cf2eb3.css.map": "/sajjad-portfolio/static/css/main.51cf2eb3.css.map",
-    "main.13be9bc7.js.map": "/sajjad-portfolio/static/js/main.13be9bc7.js.map"
+    "main.310744c3.css.map": "/sajjad-portfolio/static/css/main.310744c3.css.map",
+    "main.7ef36b0d.js.map": "/sajjad-portfolio/static/js/main.7ef36b0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.51cf2eb3.css",
-    "static/js/main.13be9bc7.js"
+    "static/css/main.310744c3.css",
+    "static/js/main.7ef36b0d.js"
   ]
 }
