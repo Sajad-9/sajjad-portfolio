@@ -18,9 +18,9 @@ A sleek, responsive single-page portfolio built for my friend, showcasing their 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, Tailwind CSS
-- **Routing:** React Router (if applicable)
+- **Routing:** React Router
 - **Animations:** Framer Motion / AOS
-- **Deployment:** Vercel / Netlify / GitHub Pages
+- **Deployment:**  GitHub Pages
 
 ---
 
@@ -41,7 +41,7 @@ src/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/friend-portfolio
-cd friend-portfolio
+git clone https://github.com/yourusername/sajjad-portfolio
+cd sajjad-portfolio
 npm install
 npm run dev
