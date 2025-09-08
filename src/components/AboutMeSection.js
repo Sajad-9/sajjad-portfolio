@@ -1,7 +1,5 @@
 import GitHubIcon from "../assets/images/githubicon.svg";
 import LinkedInIcon from "../assets/images/linkedinicon.svg";
-import XICon from "../assets/images/xicon.svg";
-import ResumeIcon from "../assets/images/resumeicon.svg";
 import { motion } from "framer-motion";
 const AboutMeSection = () => {
   return (
