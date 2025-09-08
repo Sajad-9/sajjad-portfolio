@@ -1,5 +1,7 @@
 import UpButtonIcon from "../assets/images/upbuttonicon.svg";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
 const BackToTopButton = ({ dropDownMenuRef }) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -41,7 +43,13 @@ const BackToTopButton = ({ dropDownMenuRef }) => {
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         } `}
       >
-        <img src={UpButtonIcon} alt="upbutton" />
+        <motion.div
+          whileHover={{ scale: 1.3 }}
+          whileTap={{ scale: 0.8 }}
+          style={{ transformOrigin: "center center" }}
+        >
+          <img src={UpButtonIcon} alt="upbutton" />
+        </motion.div>
       </button>
     </div>
   );

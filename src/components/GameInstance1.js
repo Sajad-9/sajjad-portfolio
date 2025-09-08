@@ -41,7 +41,13 @@ const GameInstance1 = ({
 
         <div class="card-header">
           <div class="card-header-title">
-            <h2 class="card-title">{title}</h2>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              style={{ transformOrigin: "center center" }}
+            >
+              <h2 class="card-title">{title}</h2>
+            </motion.div>
             <motion.div
               whileHover={{ scale: 1.3 }}
               whileTap={{ scale: 0.8 }}
@@ -60,7 +66,13 @@ const GameInstance1 = ({
         <div class="card-content">
           <div className="flex flex-row-reverse">
             <div className="ml-5 mr-5 mt-[30px]">
-              <p class="card-description">{description}</p>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+                style={{ transformOrigin: "center center" }}
+              >
+                <p class="card-description">{description}</p>
+              </motion.div>
             </div>
             <div class="carousel">
               <SwipeCarousel images={images} />

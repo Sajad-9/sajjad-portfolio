@@ -3,8 +3,11 @@ import { motion } from "framer-motion";
 import AboutMe from "../assets/images/About me.svg";
 import ContactInfo from "../assets/images/Contact Info.svg";
 import LetsPlay from "../assets/images/Let's play.svg";
+import { useNavigate } from "react-router-dom";
 
-const DropDownMenu = ({ ref, aboutMeRef, contactInformationRef, gamesRef }) => {
+const DropDownMenu = ({ ref, contactInformationRef, gamesRef }) => {
+  const navigate = useNavigate();
+
   const [isVisible, setIsVisible] = useState(false);
 
   const [scrollValue, setScrollValue] = useState(530);
@@ -38,8 +41,8 @@ const DropDownMenu = ({ ref, aboutMeRef, contactInformationRef, gamesRef }) => {
     window.addEventListener("scroll", toggleVisibility);
   });
 
-  const scrollToAboutME = () => {
-    aboutMeRef.current.scrollIntoView({ behavior: "smooth" });
+  const goToAboutME = () => {
+    navigate("/aboutme");
   };
 
   const scrollToContactInformatoin = () => {
@@ -69,7 +72,7 @@ const DropDownMenu = ({ ref, aboutMeRef, contactInformationRef, gamesRef }) => {
       </motion.div>
       <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
         <button
-          onClick={scrollToAboutME}
+          onClick={goToAboutME}
           className={`w-[320px] h-[100px] lg:w-[480px] lg:h-[150px] bg-[linear-gradient(135deg,#000_10%,#0000ff_80%)] flex items-center justify-center mb-5 lg:mb-10 transition-all pr-10 ${
             isVisible
               ? "animate-slide-bounce-in-middle"

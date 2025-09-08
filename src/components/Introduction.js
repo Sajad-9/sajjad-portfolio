@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import title2 from "../assets/images/SEYED SAJAD HOSEINI.svg";
+import title2 from "../assets/images/SAJAD HOSEINI.svg";
 
 const Introduction = () => {
   const [isVisible, setIsVisible] = useState(false);

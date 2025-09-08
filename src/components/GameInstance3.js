@@ -41,14 +41,26 @@ const GameInstance3 = ({
                 PLAY NOW!
               </button>
             </motion.div>
-            <h2 class="card3-title">{title}</h2>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
+              style={{ transformOrigin: "center center" }}
+            >
+              <h2 class="card3-title">{title}</h2>
+            </motion.div>
           </div>
         </div>
 
         <div class="card3-content">
           <div className="flex flex-row-reverse">
             <div className="ml-5 mr-5 mt-[30px]">
-              <p class="card3-description">{description}</p>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.8 }}
+                style={{ transformOrigin: "center center" }}
+              >
+                <p class="card3-description">{description}</p>
+              </motion.div>
             </div>
             <div class="carousel3">
               <SwipeCarousel images={images} />
